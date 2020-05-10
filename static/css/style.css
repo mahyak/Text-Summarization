@@ -1,0 +1,251 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, hr, button {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:none;
+}
+
+ol, ul {
+	list-style-type:none;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+	line-height:100%;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+q:before, q:after {
+	content:"";
+}
+
+input, textarea, select {
+	font:12px Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	padding:0;
+	margin:0;
+}
+
+input {
+	overflow:auto;
+	resize:none;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+	line-height:21px;
+	color:#113e5d;
+	background-color:#9ba0a3;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+}
+
+h1 {
+	font-size:33px;
+	margin-bottom:10px;
+}
+
+h2 {
+	font-size:25px;
+	margin-bottom:10px;
+}
+
+h3 {
+	font-size:18px;
+	margin-bottom:10px;
+}
+
+h4 {
+	font-size:16px;
+	margin-bottom:10px;
+}
+
+h5 {
+	font-size:14px;
+	margin-bottom:10px;
+}
+
+h6 {
+	font-size:12px;
+	margin-bottom:10px;
+}
+
+	/*  links */
+	a {color: #1B5219;text-decoration: underline;}
+	a:hover {color: #1B5219;text-decoration: none;}
+
+	/*  superscript and subscript */
+	sup, sub {vertical-align: baseline;position: relative;top: -0.4em;}
+	sub { top: 0.4em; }
+	
+	/*  lists */
+	ul, ol {padding:0;margin:0;}
+	ul li {list-style-type:disc;}
+	ol li {list-style-type:decimal;}
+	ul li,
+	ol li {font-size: 12px; line-height: 16px;margin: 0 0 10px 15px;}
+
+	/*  tables */
+	table,th,td {border:1px solid #AAAAAA;}
+	th {padding:3px; font-weight:bold;color:#344b3b;}
+	tr {margin:0 0 5px 0;padding:3px;}
+	td {padding:5px;margin:0 1px;}
+	
+	/*  horizontal lines */
+	hr {border-bottom: 1px solid #C1C1CB;margin:5px 0;padding:0;height:2px;width:100%; margin-bottom:15px;}
+
+.clear {
+	clear:both;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+#wrapper {
+	width:1000px;
+	margin:0 auto;
+	padding:20px 0 50px 0;
+}
+
+/*----start header----*/
+#header {
+	padding:0px 0px 5px;
+}
+
+#header .top_banner{
+	background:url(images/header.png) no-repeat left top;
+	height:200px;
+	padding:75px 95px 0 295px;
+	border:#496066 solid 1px;
+}
+
+#header h1{
+	font-size:32px;
+	color:#FFFFFF;
+	margin:0px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+    padding:0px 0px 10px;
+    float:right;
+}
+
+#header h1 a {
+	color:#000000;
+    text-decoration: none;
+}
+
+#header h1 a:hover {
+	text-decoration: none;
+}
+
+.navigation{
+	margin:0px 0px 25px;
+	border-bottom:#adb1b2 solid 1px;
+	padding:15px 5px;
+	background: #e4e6e5;
+}
+
+.navigation ul{
+	margin:0px;
+	padding:0px;
+}
+
+.navigation ul li{
+	margin:0px;
+	padding:0px 32px;
+	display:inline;
+	font-size:15px;
+	list-style-type:none;
+	border-right:#868B8F dotted 2px;
+}
+
+.navigation ul li a{
+	color:#03314b;
+	text-decoration:none;
+}
+
+.navigation ul li a:hover{
+	text-decoration:underline;
+}
+
+.navigation ul li:last-child {
+	border-right:none;
+}
+/*----end header----*/
+
+
+/*----start page content----*/
+#page_content{
+	background:#EBEEEE;
+	padding:10px;
+	widows: 900px;
+}
+
+#page_content .right_section{
+  	padding-left:50px;
+  	align-content: center;
+  	text-align: justify !important;
+}
+
+#page_content .right_section .top_content{
+	padding:15px 0 0px 0;
+}
+
+#page_content .right_section .top_content .column_one{
+	width:500px;
+  	margin-bottom:20px;
+}
+
+#page_content .right_section .top_content .column_two{
+	width:500px;
+	float:right;
+	margin-bottom:20px;
+}
+
+.common_content{
+	padding:0 0 20px 0;
+}
+
+.border_none{
+	border:none!important;
+	margin:0px!important;
+}
+/*----start footer content----*/
+#footer{
+	clear:both;
+	margin-top:18px;
+	padding:15px 0 12px 0;
+	height:25px;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	line-height:19px;
+	border-top:#b9bdbe solid 1px;
+}
+
+#footer a{
+	color: #1B5219;
+	text-decoration:none;
+}
+
+#footer a:hover{
+	color: #1B5219;
+	text-decoration:underline;
+}
+
+/*----end footer content----*/
