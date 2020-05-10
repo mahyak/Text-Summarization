@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block form %}
+<form action = '/tf-idf' method="POST">
+    <h2>Text Summarizer: {{type_summarizer}}</h2>
+    <hr>
+	<p>Please enter the link you like to summarize:</p>
+	<br>
+	<input maxlength = "200" style = 'width: 300px;'name = "input_url" id = "input_url"  placeholder = ' https://www.wikipedia.org' value = "{{request.form['input_url']}}" ></input>
+	<br>
+	<p>
+	<br>
+		<input type="submit" class="btn btn-primary" value="Submit">
+	</p>
+	<br>
+	<hr>
+	<h2>Summarized Text</h2>
+	<textbox name="output_text" id="output_text">
+		<p>{{ output_summary }} </p>
+	</textbox>
+	<br>
+	<hr>
+	<h2>Original Text</h2>
+        <p>{{ original_text }}</p>
+</form>
+
+        
+    {% endblock %}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Text Summarization</title>
+<meta name="description" content="Basic text cummarization methods">
+<meta name="keywords" content="keyword1, keyword2, keyword3">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="/static/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="wrapper"> 
+    <div id="header"> 
+        <div class="top_banner">
+            <h1>Text Summarization</h1>
+        </div>
+    </div>
+    
+    <div id="page_content">
+        <div class="navigation">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/wordFreq">Word Frequency</a></li>
+                <li><a href="/tf-idf">TF-IDF</a></li>
+                <li><a href="/textRank">Text Rank</a></li>
+                <li><a href="/lexRank">LexRank</a></li>
+                <li><a href="#">RNN</a></li>
+            </ul>
+        </div>
+
+        <div class="right_section">
+            <div class="common_content">
+                {% block form %}
+                {% endblock %}
+            </div>
+        </div>
+        
+        <div id="footer"><br></div>
+    </div>
+</div>
+</body>
+
+</html>
