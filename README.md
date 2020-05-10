@@ -25,4 +25,4 @@ Disadvantage: But they lack in flexibility since they cannot use novel words or 
 
 Measures: ROUGE
 
-![](images/Screen Shot 2020-05-10 at 11.39.45 AM.png)
+<img src='images/Screen Shot 2020-05-10 at 11.39.45 AM.png'>
