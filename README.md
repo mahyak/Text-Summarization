@@ -5,7 +5,6 @@ Text summarization is the technique for generating a concise and precise summary
 
 Supervised machine learning problem
 
-Available algorithms? Pros and cons?
 
  There are two approaches to summarizing texts in NLP: extraction and abstraction.
 Extraction- based summarization: a subset of words that represent the most important points is pulled from a piece of text and combined to make a summary. In other word, Select relevant phrases of the input document and concatenate them to form a summary (like “copy-and-paste”). In machine learning, extractive summarization usually involves weighing the essential sections of sentences then ranked them according to their relevance and similarity with one another and using the results to generate summaries.
