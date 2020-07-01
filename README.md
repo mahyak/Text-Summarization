@@ -2,8 +2,11 @@
 
 Text summarization refers to the technique that generate a cosine and precise summary of long pieces of text or voluminous texts. To have a coherent and fluent summary the algorithms must focus on the sections that Convery useful information so the summary having only the main points outlined in the document. It takes place in Supervised machine learning problem category.
 Text summarization can be classified in two categories in natural language processing: Extraction and Abstraction. 
+
 •	Extraction-based summarization: The general approach in this type of summarizer is select relevant phrases of the input document and combine to make a summary (like “copy-and-paste”). The idea behind the extraction-based summarization is weighting the essential sections of sentences then ranked them according to their relevance and similarity with one another and using the results to generate summaries. 
+
 •	Abstraction-based summarization: this method mainly used advanced natural language techniques in order to generate a new shorter text. Parts of summary may not appear as part of the original document; the most critical information has been rephrased such as a human-written abstract.
+
 This project has focused on extraction summarization and its steps includes:
 1)	Convert paragraph into sentences 
 2)	Text Processing: Removing the stop words, numbers, punctuation 
